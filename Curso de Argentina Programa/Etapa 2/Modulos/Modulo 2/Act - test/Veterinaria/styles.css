@@ -1,0 +1,86 @@
+h1, h2, h3{
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 7px 7px 2px orange;
+}
+header h1{
+		font-size: 3em;
+}
+
+h3{
+	font-size: 1.6em;
+}
+body{
+	overflow-x: hidden;
+	background: linear-gradient(135deg,#fcbc03, #ffffff);
+}
+nav ul {
+	margin: 0;
+	padding-left: 450px;
+	list-style: none;
+	float: left;
+	border: 1px solid #000;
+	width: 84.7%;
+}
+
+nav li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+nav li a, nav li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: .15em 1em;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	display: block;
+	font: bold 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+section{
+	padding: 50px;
+}
+#nosotros{
+		margin-top: 50px;
+		font: 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+		text-align: justify;
+}
+
+#servicios{
+	width: 70%;
+	margin-left: 150px;
+	text-align: justify;
+}
+
+figure{
+	padding: 50px;
+	margin-left: 0px;
+  }
+  
+ figure img{
+	padding: 1px;
+	background: white;
+	-webkit-transition:-webkit-transform 0.5s ease-in-out 0.1s;
+	box-shadow: black 5px 5px 5px;
+	margin-left: 80px;	
+}
+
+figure img:hover {
+	-webkit-transform:scale(1.2);
+}
+
+figure figcaption{
+	
+	padding: 20px;
+	 margin-left: 100px;
+	 font: bold 1.3em Helvetica;
+
+}
+
+#contacto{
+	text-align: center;
+	font: bold 1em Helvetica;
+}
