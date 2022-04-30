@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/jasmine": "3.5.14",
+    "jasmine": "3.6.1",
+    "jasmine-expect": "file:../..",
+    "ts-node": "9.0.0",
+    "tslint": "6.1.3",
+    "typescript": "4.0.3"
+  },
+  "private": true,
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "lint": "tslint --fix --project ./tsconfig.json",
+    "test": "ts-node ./node_modules/jasmine/bin/jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  }
+}

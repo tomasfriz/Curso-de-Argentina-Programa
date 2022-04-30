@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "jasmine-expect": "file:../..",
+    "jest": "26.4.2"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  }
+}

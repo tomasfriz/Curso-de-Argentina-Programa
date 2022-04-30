@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "jasmine": "3.6.1",
+    "jasmine-expect": "*"
+  },
+  "private": true,
+  "scripts": {
+    "test": "jasmine"
+  }
+}
