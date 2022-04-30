@@ -1,0 +1,79 @@
+/* Puede agregar estilos globales a este archivo y también importar otros archivos de estilo */
+@Perfil delantero {
+    familia de fuentes: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+}
+
+*{
+    tamaño de caja: caja de borde;
+    margen: 0;
+    relleno: 0;
+}
+cuerpo{
+    familia tipográfica: sans-serif;    
+}
+
+.envase{
+    ancho máximo: 500px;
+    margen: 30px automático;
+    desbordamiento: automático;
+    altura mínima: 300px;
+    borde: 1px azul acero sólido;
+    relleno: 30px;
+    borde-radio: 5px;
+}
+
+.btn {
+    pantalla: bloque en línea;
+    fondo: #000;
+    color: #fff;
+    borde: ninguno;
+    relleno: 10px 20px;
+    margen: 5px;
+    borde-radio: 5px;
+    cursor: puntero;
+    texto-decoración: ninguno;
+    tamaño de fuente: 15px;
+    familia de fuentes: heredar;
+}
+.btn:enfoque {
+    esquema: ninguno;
+}
+.btn: activo {
+    transformar: escala (0.98);
+}
+.btn-bloque {
+    bloqueo de pantalla;
+    ancho: 100%;
+}
+
+.control de forma {
+    margen: 20px 0;
+}
+
+.etiqueta de control de forma {
+    bloqueo de pantalla;
+}
+
+.entrada de control de forma {
+    ancho: 100%;
+    altura: 40px;
+    margen: 5px;
+    relleno: 3px 7px;
+    tamaño de fuente: 17px;
+}
+
+.control-formulario-check {
+    pantalla: flexible;
+    alinear elementos: centro;
+    justificar-contenido: espacio-entre;
+}
+
+.etiqueta de verificación de control de forma {
+    flexión: 1;
+}
+
+.form-control-comprobar entrada {
+    flexión: 2;
+    altura: 20px;
+}
