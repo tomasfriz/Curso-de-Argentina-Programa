@@ -1,0 +1,1 @@
+let varfunctionflechaSuma = (a: number, b: number) => (a + b);
